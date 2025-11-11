@@ -1,0 +1,8 @@
+shm_proc: shm_processes.c
+	gcc shm_processes.c -D_SVID_SOURCE -pthread -std=c99 -lpthread  -o shm_proc
+example: example.c
+	gcc example.c -pthread -std=c99 -lpthread  -o example
+psdd: psdd.c
+	gcc psdd.c -pthread -std=c99 -lpthread  -o psdd
+psdd_extra: psdd_extra.c
+	gcc psdd_extra.c -pthread -std=c99 -lpthread  -o psdd_extra

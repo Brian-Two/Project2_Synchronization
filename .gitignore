@@ -1,0 +1,25 @@
+# Compiled binaries
+psdd
+psdd_extra
+example
+shm_proc
+ref_psdd
+
+# Temporary files
+account.txt
+log.txt
+output.txt
+*.txt
+
+# Object files
+*.o
+*.out
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+
